@@ -9,7 +9,27 @@
 - Streamlit dashboard with tournament comparison.
 - Approximate project budget.
 
-## Run
+## Projects Structure 
+
+```text
+worldcup_rag_project/
+| app.py/
+|  └──streamlit_app
+├── requirements.txt
+├── README.md
+├── data/
+│   ├──worldcup_summary.csv
+├── docs/
+│   └──architecture.md
+|   └──architecture.png
+└── src/
+|   ├──build_vector_db.py
+|    ├── rag_engine.py
+├── chroma_db/
+    ├──chroma.sqlite3
+
+
+## Run 
 ```bash
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
